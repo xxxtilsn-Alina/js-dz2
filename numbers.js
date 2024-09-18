@@ -1,6 +1,6 @@
 // 1.
 const celsius = 11;
-const fahrenheit = (celsius * 9) / 5 + 21;
+const fahrenheit = (celsius * 9) / 5 + 32;
 console.log(`${celsius}°C = ${fahrenheit}°F`);
 
 // 2.
@@ -28,6 +28,11 @@ const discount = sum * 0.1;
 const sumDiscount = sum - discount;
 console.log(`кінцева сумв ${sumDiscount}`);
 
+// 5
+
+const min = 4.6;
+console.log(Math.floor(min));
+
 // 6.
 
 const number = "11.9";
@@ -39,3 +44,17 @@ console.log(number2);
 const whole = "100";
 const whole2 = Number.parseInt(whole);
 console.log(whole2);
+
+// 8.
+
+const numb = 9;
+console.log(Math.sqrt(numb));
+
+// 9.
+
+const integer = 36;
+const string = "27";
+const newString = Number.parseInt(string);
+console.log(newString);
+const newInteger = String(integer);
+console.log(newInteger);
